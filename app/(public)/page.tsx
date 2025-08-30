@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <Button>Click me</Button>
       <h1>Welcome to Resource Real Estate</h1>
-      <p>Real estate investment made simple.</p>
+      <p>Real estate investment made simple this is a test .</p>
     </div>
   );
 }
