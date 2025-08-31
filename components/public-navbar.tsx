@@ -37,10 +37,13 @@ export default function PublicNavbar() {
 
       {/* Call to Action Buttons */}
       <div className='flex items-center gap-4'>
-        <Button className='h-10' asChild>
+        <Button className='h-10 hover:bg-black font-bold' asChild>
           <Link href='/book-online'>Book Online</Link>
         </Button>
-        <Button variant='outline' className='h-10' asChild>
+        <Button
+          className='h-10 bg-gray-200 text-black font-bold hover:bg-gray-200'
+          asChild
+        >
           <Link href='/login'>Login</Link>
         </Button>
       </div>
