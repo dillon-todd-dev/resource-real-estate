@@ -8,7 +8,6 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { name: 'Home', href: '/' },
   { name: 'Projects', href: '/projects' },
   { name: 'Agents', href: '/agents' },
   { name: 'Contact', href: '/contact' },
@@ -19,9 +18,9 @@ export default function PublicNavbar() {
     <nav className='flex items-center justify-between py-4 px-6 h-20 border-b-2'>
       {/* Name + Nav Links */}
       <div className='flex justify-center items-center gap-6'>
-        <h1 className='text-2xl font-bold text-blue-600'>
+        <Link href='/' className='text-2xl font-bold text-blue-600'>
           Resource Real Estate
-        </h1>
+        </Link>
         <div className='hidden md:flex space-x-6'>
           {navLinks.map((link: NavLink) => (
             <Link

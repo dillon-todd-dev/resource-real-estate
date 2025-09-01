@@ -17,11 +17,25 @@ export default function Home() {
       <div className='bg-gray-100'>
         <div className='max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10 py-20'>
           <Card>
-            <CardHeader className='text-center'>
-              <CardTitle>Buyers</CardTitle>
+            <CardHeader className='text-center border-b-1'>
+              <CardTitle className='text-2xl font-bold'>Buyers</CardTitle>
             </CardHeader>
-            <CardContent>
-              <p>Test Buyers</p>
+            <CardContent className='space-y-6 md:space-x-6'>
+              <div>
+                <h1 className='font-bold text-md'>Fix-and-Flip Investors</h1>
+                <p>
+                  Looking to buy their first or 100th home to rehab, flip fo
+                  profit, and build a thriving business.
+                </p>
+              </div>
+              <div>
+                <h1 className='font-bold text-md'>Landlords</h1>
+                <p>
+                  Seeking rental properties to rehab and hold, building
+                  long-term wealth and expanding their rental portfolio.
+                </p>
+              </div>
+              <Button className='w-40'>Buy</Button>
             </CardContent>
           </Card>
           <Card className='max-w-xl'>
@@ -43,9 +57,7 @@ export default function Home() {
                   long-term wealth and expanding their rental portfolio.
                 </p>
               </div>
-              <div className='flex justify-center items-center'>
-                <Button className='w-40'>Sell</Button>
-              </div>
+              <Button className='w-40'>Sell</Button>
             </CardContent>
           </Card>
         </div>
