@@ -18,7 +18,7 @@ export default function PublicNavbar() {
     <nav className='flex items-center justify-between py-4 px-6 h-20 border-b-2'>
       {/* Name + Nav Links */}
       <div className='flex justify-center items-center gap-6'>
-        <Link href='/' className='text-2xl font-bold text-blue-600'>
+        <Link href='/' className='text-2xl font-bold'>
           Resource Real Estate
         </Link>
         <div className='hidden md:flex space-x-6'>
