@@ -56,7 +56,7 @@ export default function Home() {
                   long-term wealth and expanding their rental portfolio.
                 </p>
               </div>
-              <Button className='w-40'>Buy</Button>
+              <Button className='w-full'>Buy</Button>
             </CardContent>
           </Card>
           <Card className='max-w-xl'>
@@ -78,7 +78,7 @@ export default function Home() {
                   long-term wealth and expanding their rental portfolio.
                 </p>
               </div>
-              <Button className='w-40'>Sell</Button>
+              <Button className='w-full'>Sell</Button>
             </CardContent>
           </Card>
         </div>
