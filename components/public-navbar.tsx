@@ -15,7 +15,7 @@ const navLinks: NavLink[] = [
 
 export default function PublicNavbar() {
   return (
-    <nav className='flex items-center justify-between py-4 px-6 h-20 border-b-2'>
+    <nav className='flex items-center justify-between py-4 px-6 h-20 border-b-2 top-0 sticky z-50'>
       {/* Name + Nav Links */}
       <div className='flex justify-center items-center gap-6'>
         <Link href='/' className='text-2xl font-bold'>
